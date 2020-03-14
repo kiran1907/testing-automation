@@ -1,0 +1,28 @@
+plugins {
+    id "java-library"
+    id "eclipse"
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "com.github.javafaker:javafaker:0.2"
+    testImplementation "com.google.code.gson:gson:2.8.0"
+    testImplementation "io.rest-assured:rest-assured:3.3.0"
+    testImplementation "org.seleniumhq.selenium:selenium-java:3.141.59"
+    testImplementation "org.seleniumhq.selenium:selenium-chrome-driver:3.141.59"
+    testImplementation "org.seleniumhq.selenium:selenium-firefox-driver:3.141.59"
+    testImplementation "org.testng:testng:6.14.3"
+}
+
+allure {
+    autoconfigure = true
+    version = '2.8.0'
+}
+
+test {
+    
+}
