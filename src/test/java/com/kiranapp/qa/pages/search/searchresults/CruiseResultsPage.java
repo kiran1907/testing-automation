@@ -1,5 +1,5 @@
 package com.kiranapp.qa.pages.search.searchresults;
 
-public class HotelResultPage {
+public class CruiseResultsPage {
 
 }
